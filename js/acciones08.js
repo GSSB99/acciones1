@@ -4,7 +4,7 @@ $(document).ready(function(e) {
     document.addEventListener("deviceready",function(){
 		
 		$('#izquierda').on("swipeleft",function(){
-			navigator.notification.alert("Deslizo a la izquierda",function(){"Aplicacion acciones","Aceptar"});
+			navigator.notification.alert("Deslizo a la izquierda",function(){"Aplicacion 8","Aceptar"});
 });
 
 $('#derecha').on("swiperight",function(){
@@ -19,7 +19,7 @@ $('#derecha').on("swiperight",function(){
 			navigator.notification.vibrate(1000);
 			break;
 		}
-	},"AplicacionAcciones","Beep,Vibrar,Cancelar");
+	},"Aplicacion8","Beep,Vibrar,Cancelar");
   
 });
 	},false);
